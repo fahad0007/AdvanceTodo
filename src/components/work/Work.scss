@@ -1,0 +1,59 @@
+.work{
+    position: relative;
+    min-height: 100vh;
+    height: 100%;
+    padding:0 20px;
+    overflow-y: auto;
+    // background-color: aquamarine;
+    // background-color: white;
+    &::-webkit-scrollbar{
+        display: none;
+    }
+
+.main_contents{
+    margin-top: 20px;
+    .empty_logo{
+        height: 250px;
+        margin-left: 3rem;
+    }
+    .delete_toast_div{
+        position: absolute;
+        top: 20rem;
+        left: 8rem;
+    }
+    .contents{
+        
+        display: flex;
+        justify-content: space-between;
+        align-items:first baseline;
+        position: relative;
+        max-height: 100vh;
+        margin-bottom: 10px;
+        height: 100%;
+        overflow-x: auto;
+        &::-webkit-scrollbar{
+            display: none;
+        }
+
+        .left{
+            display: flex;
+        }
+        .description{
+            margin-left: 10px;
+            margin-right: 10px;
+            font-weight: 400;
+        }
+        .checked_logo{
+            position: absolute;
+            top: 0.3rem;
+            right: 1.2rem;
+           
+        }
+        .delete_logo{
+            position: absolute;
+            top: 0.3rem;
+            right: 0;
+        }
+    }
+}
+}

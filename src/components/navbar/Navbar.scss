@@ -1,0 +1,21 @@
+
+.nav_all{
+    position: sticky;
+    top: 0;
+    background-color: white;
+     z-index: 999;
+     .return_logo{
+       // padding: 15px;
+       height: 30px;
+       width: auto;
+       margin: 20px 20px 0px 0px;
+     }
+   .nav2{
+       display: flex;
+       justify-content: center;
+       .title{
+           color: #2196F3;
+           margin-right: 20px;
+       }
+   }
+}

@@ -12,7 +12,6 @@ import Create from './components/create/Create';
 import Home from './components/home/Home';
 import Task from './components/task/Task';
 
-
 function App() {
   return (
     <div className="app">
@@ -29,11 +28,9 @@ function App() {
           <Route path='/create' element={<Create/>}/>
           <Route path='/Home' element={<Home/>}/>
           <Route path='/task' element={<Task/>}/>
-
         </Routes>
         </BrowserRouter>
       </div>
-      
     </div>
   );
 }

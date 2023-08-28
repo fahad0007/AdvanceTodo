@@ -11,9 +11,6 @@ import delete1 from '../../images/delete1.svg'
 import no_data_logo from '../../images/no_data_logo.avif'
 import DeleteToast from '../deleteToast/DeleteToast'
 
-
-
-
 const getWorkData = ()=>{
   let workList = JSON.parse(localStorage.getItem('workData')) 
   return workList

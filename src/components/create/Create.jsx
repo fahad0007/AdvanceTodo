@@ -321,36 +321,8 @@ function Create() {
 }
      
             </div>
-           {/* <Select options={options} value={selectedOption}  onChange={handleSelectChange}
-          defaultValue={{value:'hello'}}
-          // placeholder={selectedOption}
-           isDisabled={false}
-           styles={{
-            control: (provided, state) => ({
-              ...provided,
-              boxShadow: "none",
-              border: "none",
-              backgroundColor: '#F5F5F5',
-              color: "#000000",
-              width:"100%"
-            }),
-            option:(provided, state) => ({
-              ...provided,
-              backgroundColor: state.isSelected ? 'white': 'white',
-              color:'black',
-              borderBottom:'1.5px solid #F5F5F5',
-              ":hover":{
-                backgroundColor:'white',
-              // borderBottom:'2px solid #2196F3',
-              width:'90%'
-              }
-            })
-          }}
-           /> */}
+           
           <div className="text_area">
-
-
-
             {
             categoryError ? <div className="error">Please select a category</div> : ''
            }
@@ -369,8 +341,8 @@ function Create() {
       defaultCaption: "",
       showPreview: false,
     }}
-    height="250px"
-    width="87%"
+    height="330px"
+    width="300px"
   /> :''
 }
       

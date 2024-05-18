@@ -40,6 +40,7 @@ function Main() {
     <div className='main'>
       <img className='menu_logo' src={menu} alt="menu_logo" />
       <h1 className='title'>TODO LIST</h1>
+      <p className='credit'>Designed And Developed By Fahad</p>
       <div className="cards_container">
         {
           data.map((item,id)=>(
